@@ -1,3 +1,7 @@
 export default function BuyButton() {
-  return <></>;
+  return (
+    <>
+      <button className="btn_buy">Comprar</button>
+    </>
+  );
 }
