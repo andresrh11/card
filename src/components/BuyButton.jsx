@@ -1,7 +1,7 @@
 export default function BuyButton() {
   return (
     <>
-      <button className="btn_buy">Comprar</button>
+      <button className="w-6 h-6">Comprar</button>
     </>
   );
 }
