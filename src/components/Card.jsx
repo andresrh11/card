@@ -13,6 +13,7 @@ export default function Card() {
             <h1>camino</h1>
             <img src="" alt="" />
           </div>
+          
         </div>
         <BuyButton />
       </div>
