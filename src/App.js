@@ -1,14 +1,20 @@
-
 import "./App.css";
 import Card from "./components/Card";
-
-function App() {
+import styled from "styled-components";
+export default function App() {
   return (
-    <>
-  
+    <Aplicacion>
       <Card />
-    </>
+    </Aplicacion>
   );
 }
 
-export default App;
+const Aplicacion = styled.div`
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  
+  height: 100%;
+  width: 100%;
+  align-items: center;
+`;

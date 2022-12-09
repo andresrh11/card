@@ -1,11 +1,12 @@
 import BuyButton from "./BuyButton";
 import img from "../utils/sequelize.png";
+import styled from "styled-components";
 export default function Card() {
   return (
     <>
-      <div className="flex border-red-500">
+      <CardContainer>
         <div>
-          <img src={img} alt="img" />
+          <Img src={img} alt="img" />
         </div>
         <div>
           <div>
@@ -13,10 +14,22 @@ export default function Card() {
             <h1>camino</h1>
             <img src="" alt="" />
           </div>
-          
         </div>
         <BuyButton />
-      </div>
+      </CardContainer>
     </>
   );
 }
+const CardContainer = styled.div`
+  border: 1px solid red;
+  width: 450px;
+  height: 550px;
+  display: flex;
+  top: 150px;
+  position: relative;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+`;
+const Img = styled.img``;
