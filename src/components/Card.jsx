@@ -11,7 +11,7 @@ export default function Card() {
         <div>
           <div>
             <h1>Titulo</h1>
-            <h1>camino</h1>
+            <h1>A Destacar</h1>
             <img src="" alt="" />
           </div>
         </div>
