@@ -9,11 +9,11 @@ export default function Card() {
           <Img src={img} alt="img" />
         </div>
         <div>
-          <div>
+          <Container>
             <h1>Titulo</h1>
             <h1>A Destacar</h1>
             <img src="" alt="" />
-          </div>
+          </Container>
         </div>
         <BuyButton />
       </CardContainer>
@@ -33,3 +33,4 @@ const CardContainer = styled.div`
   border-radius: 15px;
 `;
 const Img = styled.img``;
+const Container = styled.div``;
