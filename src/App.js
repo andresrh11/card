@@ -13,8 +13,9 @@ const Aplicacion = styled.div`
   display: flex;
   flex-flow: column;
   justify-content: center;
-  
-  height: 100%;
+  background-color: grey;
+  height: 969px;
   width: 100%;
   align-items: center;
+  z-index: -2;
 `;

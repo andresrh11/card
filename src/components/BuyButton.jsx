@@ -18,7 +18,8 @@ const BuyBtn = styled.button`
   font-weight: bold;
   position: relative;
   border-radius: 12px;
-
+  right: -200px;
+  width: 200px;
   ::before {
     content: "";
     position: absolute;
